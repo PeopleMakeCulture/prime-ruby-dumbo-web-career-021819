@@ -4,10 +4,10 @@ def prime? (num)
   i = num - 1
   if i == 1
     break
-  if num % i == 0 || i 
+  if num % i == 0 || i
     false
     break
-  else 
-    
-    
+  else
+
+
 end
