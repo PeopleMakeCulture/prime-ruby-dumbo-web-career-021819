@@ -4,5 +4,6 @@ def prime? (num)
     remainder = num % index
     if remainder == 0
       false
+    end
   end
 end
