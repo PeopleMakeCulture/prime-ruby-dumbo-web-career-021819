@@ -12,5 +12,5 @@ def prime3?(num)
       end
     end
     return true
-  end  
+  end
 end
