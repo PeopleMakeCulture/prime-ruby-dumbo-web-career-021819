@@ -5,7 +5,8 @@ def prime? (num)
   end
 
   index = num
-  while index > 1 || index
+  while index > 1 
+    index = index - 1
   end
 
 end
