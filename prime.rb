@@ -4,13 +4,13 @@ def prime? (num)
     true
   elsif num == 2
     true
-  else 
+  else
     for element in (2..num) do
       element = element - 1
       if num % element == 0
-        return false 
+        return false
       else
         prime?(element)
-    end 
+    end
   end
 end
